@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Testimonials from "./Testimonials";
 import ProjectsGallery from "./ProjectsGallery";
+import ContactForm from "./ContactForm";
 import omannapurnabg from "../public/omannapurna-bg.png";
 import front from "../public/front.png"
 import logo from "../public/logo.png"
@@ -23,7 +24,14 @@ export default function Home() {
   return (
     <main>
       <section className="hero" id="home">
-        <Image className="heroImage" src={omannapurnabg} alt="Luxury OmAnnaPurna apartment overlooking the Visakhapatnam coast" fill priority sizes="100vw" />
+        <Image
+          className="heroImage"
+          src={omannapurnabg}
+          alt="Luxury OmAnnaPurna apartment overlooking the Visakhapatnam coast"
+          fill
+          preload
+          sizes="100vw"
+        />
         <div className="heroShade" />
         <header className="nav shell">
           <Logo />
@@ -77,7 +85,7 @@ export default function Home() {
 
       <Testimonials />
 
-      <section className="contactWrap" id="contact"><div className="contact shell"><div><h2>Let&apos;s Build Your Dream Home</h2><p>Have a question or want to know more about our projects? We&apos;re here to help!</p><a href="tel:+919640012345">☎ +91 96400 12345</a><a href="mailto:hello@omannapurnadevelopers.com">✉ hello@omannapurnadevelopers.com</a><span>⌖ Sujathanagar, Visakhapatnam</span></div><form><h3>Get in Touch</h3><div className="formRow"><input aria-label="Name" placeholder="Your name" /><input aria-label="Phone" placeholder="Your phone" /><input aria-label="Email" placeholder="Your email" /></div><textarea aria-label="Message" placeholder="Your message" /><button className="btn gold" type="submit">Send message →</button></form></div></section>
+      <section className="contactWrap" id="contact"><div className="contact shell"><div><h2>Let&apos;s Build Your Dream Home</h2><p>Have a question or want to know more about our projects? We&apos;re here to help!</p><a href="tel:+919640012345">☎ +91 96400 12345</a><a href="mailto:hello@omannapurnadevelopers.com">✉ hello@omannapurnadevelopers.com</a><span>⌖ Sujathanagar, Visakhapatnam</span></div><ContactForm /></div></section>
 
       <footer className="footer"><div className="shell footerGrid"><div><Logo /><p>Building quality homes and strong relationships in and around Visakhapatnam.</p></div><div><h4>Quick links</h4><a href="#home">Home</a><a href="#about">About us</a><a href="#projects">Projects</a><a href="#amenities">Amenities</a></div><div><h4>Our projects</h4><span>Bhargav Nivas</span><span>Annapurna Enclave</span><span>Annapurna Paradise</span></div><div><h4>Contact us</h4><a href="tel:+919640012345">+91 96400 12345</a><a href="mailto:hello@omannapurnadevelopers.com">hello@omannapurnadevelopers.com</a><span>Visakhapatnam, Andhra Pradesh</span></div></div><div className="copyright shell">© 2026 OmAnnaPurna Developers. All rights reserved. <span>Privacy Policy &nbsp; | &nbsp; Terms & Conditions</span></div></footer>
     </main>
