@@ -39,13 +39,15 @@ export default function Home() {
             <a href="#home">Home</a><a href="#about">About us</a><a href="#projects">Projects</a>
             <a href="#amenities">Amenities</a><a href="#testimonials">Stories</a><a href="#contact">Contact</a>
           </nav>
-          <a className="phone" href="tel:+919640012345">☎ &nbsp;+91 96400 12345</a>
+          <a className="phone" href="tel:+919640012345">☎ &nbsp;+91 9030998129  
+</a>
           <details className="mobileMenu">
             <summary aria-label="Open navigation"><span /><span /><span /></summary>
             <div>
               <a href="#home">Home</a><a href="#about">About us</a><a href="#projects">Projects</a>
               <a href="#amenities">Amenities</a><a href="#testimonials">Stories</a><a href="#contact">Contact</a>
-              <a className="mobilePhone" href="tel:+919640012345">☎ +91 96400 12345</a>
+              <a className="mobilePhone" href="tel:+919640012345">☎ +91 9030998129  ,
++91 9666610077</a>
             </div>
           </details>
         </header>
@@ -85,9 +87,11 @@ export default function Home() {
 
       <Testimonials />
 
-      <section className="contactWrap" id="contact"><div className="contact shell"><div><h2>Let&apos;s Build Your Dream Home</h2><p>Have a question or want to know more about our projects? We&apos;re here to help!</p><a href="tel:+919640012345">☎ +91 96400 12345</a><a href="mailto:hello@omannapurnadevelopers.com">✉ hello@omannapurnadevelopers.com</a><span>⌖ Sujathanagar, Visakhapatnam</span></div><ContactForm /></div></section>
+      <section className="contactWrap" id="contact"><div className="contact shell"><div><h2>Let&apos;s Build Your Dream Home</h2><p>Have a question or want to know more about our projects? We&apos;re here to help!</p><a href="tel:+919640012345">☎ +91 9030998129 , 
++91 9666610077</a><a href="mailto:ask@omannapurnadevelopers.com">✉ ask@omannapurnadevelopers.com</a><span>⌖ BC Colony ,Vepagunta, Visakhapatnam</span></div><ContactForm /></div></section>
 
-      <footer className="footer"><div className="shell footerGrid"><div><Logo /><p>Building quality homes and strong relationships in and around Visakhapatnam.</p></div><div><h4>Quick links</h4><a href="#home">Home</a><a href="#about">About us</a><a href="#projects">Projects</a><a href="#amenities">Amenities</a></div><div><h4>Our projects</h4><span>Bhargav Nivas</span><span>Annapurna Enclave</span><span>Annapurna Paradise</span></div><div><h4>Contact us</h4><a href="tel:+919640012345">+91 96400 12345</a><a href="mailto:hello@omannapurnadevelopers.com">hello@omannapurnadevelopers.com</a><span>Visakhapatnam, Andhra Pradesh</span></div></div><div className="copyright shell">© 2026 OmAnnaPurna Developers. All rights reserved. <span>Privacy Policy &nbsp; | &nbsp; Terms & Conditions</span></div></footer>
+      <footer className="footer"><div className="shell footerGrid"><div><Logo /><p>Building quality homes and strong relationships in and around Visakhapatnam.</p></div><div><h4>Quick links</h4><a href="#home">Home</a><a href="#about">About us</a><a href="#projects">Projects</a><a href="#amenities">Amenities</a></div><div><h4>Our projects</h4><span>Bhargav Nivas I</span><span>Bhargav Nivas II</span><span>Bhargav Nivas III</span></div><div><h4>Contact us</h4><a href="tel:+919640012345">+91 9030998129 , 
++91 9666610077</a><a href="mailto:ask@omannapurnadevelopers.com">ask@omannapurnadevelopers.com</a><span>Visakhapatnam, Andhra Pradesh</span></div></div><div className="copyright shell">© 2026 OmAnnaPurna Developers. All rights reserved. <span>Privacy Policy &nbsp; | &nbsp; Terms & Conditions</span></div></footer>
     </main>
   );
 }
