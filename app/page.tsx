@@ -91,7 +91,7 @@ export default function Home() {
 +91 9666610077</a><a href="mailto:ask@omannapurnadevelopers.com">✉ ask@omannapurnadevelopers.com</a><span>⌖ BC Colony ,Vepagunta, Visakhapatnam</span></div><ContactForm /></div></section>
 
       <footer className="footer"><div className="shell footerGrid"><div><Logo /><p>Building quality homes and strong relationships in and around Visakhapatnam.</p></div><div><h4>Quick links</h4><a href="#home">Home</a><a href="#about">About us</a><a href="#projects">Projects</a><a href="#amenities">Amenities</a></div><div><h4>Our projects</h4><span>Bhargav Nivas I</span><span>Bhargav Nivas II</span><span>Bhargav Nivas III</span></div><div><h4>Contact us</h4><a href="tel:+919640012345">+91 9030998129 , 
-+91 9666610077</a><a href="mailto:ask@omannapurnadevelopers.com">ask@omannapurnadevelopers.com</a><span>Visakhapatnam, Andhra Pradesh</span></div></div><div className="copyright shell">© 2026 OmAnnaPurna Developers. All rights reserved. <span>Privacy Policy &nbsp; | &nbsp; Terms & Conditions</span></div></footer>
++91 9666610077 </a><a href="mailto:ask@omannapurnadevelopers.com">ask@omannapurnadevelopers.com</a><span>Visakhapatnam, Andhra Pradesh</span></div></div><div className="copyright shell">© 2026 OmAnnaPurna Developers. All rights reserved. <span>Privacy Policy &nbsp; | &nbsp; Terms & Conditions</span></div></footer>
     </main>
   );
 }
